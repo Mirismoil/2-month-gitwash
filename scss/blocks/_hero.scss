@@ -1,0 +1,68 @@
+.hero {
+    position: relative;
+}
+
+.wrapper-box {
+    margin-left: 75px;
+}
+
+.hero-left {
+    width: 620px;
+}
+
+.hero-left>h1 {
+    display: block;
+    margin: 43px 0px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 125%;
+    color: #141B41;
+}
+
+.hero-left>p {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 140%;
+    color: #72727E;
+}
+
+.wrapper-box>a {
+    display: block;
+    width: 240px;
+    height: 60px;
+    margin-top: 29px;
+    padding: 18px 42px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 140%;
+    color: #EEEEEE;
+    background: #446DF6;
+    border-radius: 6px;
+}
+
+.vector {
+    position: absolute;
+    top: 59px;
+    left: 217px;
+}
+
+a:active {
+    background-color: black;
+}
+
+.iphone {
+    position: absolute;
+    display: none;
+    top: -213px;
+    left: 226px;
+}
+
+.vector:hover + .iphone {
+    display: inline;
+}
+img:hover{
+    display: inline;
+}
