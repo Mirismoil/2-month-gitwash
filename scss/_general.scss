@@ -1,10 +1,10 @@
 *{
     box-sizing: border-box;
-}
-body{
     margin: 0;
     padding: 0;
-    max-width: 1150px;
+    transition: 3s set-nth($list: 1s, $n: 2s, $value:3s );
+}
+body{
     font-family: 'Barlow', sans-serif;
 }
 img{

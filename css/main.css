@@ -14,12 +14,12 @@
 }
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition: 3s 1s;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  max-width: 1150px;
   font-family: "Barlow", sans-serif;
 }
 
@@ -340,8 +340,8 @@ template {
 
 .container {
   width: 1277px;
-  margin: 0px auto;
-  padding: 0px 20px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .header-top {
@@ -366,7 +366,7 @@ template {
 }
 
 .header-img {
-  margin: 44px 81px;
+  margin: 44px 0px;
 }
 
 .header-list {
@@ -396,19 +396,22 @@ template {
   margin-right: 45px;
 }
 
-.hero {
-  position: relative;
+.section-hero {
+  transition: 3s;
+  background-size: 551px;
+  background-position: calc(50% + 415px);
+  background-image: url("../../imgs/iPhone 12.png");
+  background-repeat: no-repeat;
+  background-origin: inherit;
 }
 
-.wrapper-box {
-  margin-left: 75px;
+.wrapper-text {
+  width: 545px;
 }
 
-.hero-left {
-  width: 620px;
-}
-
-.hero-left > h1 {
+.wrapper-text > h1 {
+  margin: 0;
+  padding: 0;
   display: block;
   margin: 43px 0px;
   font-style: normal;
@@ -418,14 +421,14 @@ template {
   color: #141B41;
 }
 
-.hero-left > p {
+.wrapper-text > p {
   font-weight: 300;
   font-size: 24px;
   line-height: 140%;
   color: #72727E;
 }
 
-.wrapper-box > a {
+.hero > a {
   display: block;
   width: 240px;
   height: 60px;
@@ -443,25 +446,12 @@ template {
 
 .vector {
   position: absolute;
-  top: 59px;
-  left: 217px;
+  top: 275px;
+  left: 400px;
 }
 
-a:active {
-  background-color: black;
-}
-
-.iphone {
-  position: absolute;
-  display: none;
-  top: -213px;
-  left: 226px;
-}
-
-.vector:hover + .iphone {
-  display: inline;
-}
-
-img:hover {
-  display: inline;
+.vector:hover {
+  background-color: #ff1414;
+  transition: 1s;
+  margin-left: 32px;
 }/*# sourceMappingURL=main.css.map */
